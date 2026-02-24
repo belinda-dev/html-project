@@ -53,8 +53,7 @@
 .hero {
     text-align: center;
     padding: 100px 20px;
-    .hero {
-    text-align: center;
+    .hero
     margin-top: 120px;
 }
 }
@@ -100,6 +99,7 @@ footer {
     padding: 20px;
     background: #111827;
 }
+
 
 
 
