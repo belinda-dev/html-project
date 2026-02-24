@@ -5,10 +5,11 @@
     font-family: Arial, sans-serif;
 }
 
-body {
+   body {
     background: #0f172a;
     color: white;
     line-height: 1.6;
+    padding-top: 80px;
 }
 
 .navbar {
@@ -16,6 +17,11 @@ body {
     justify-content: space-between;
     padding: 20px 50px;
     background: #111827;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -85,3 +91,4 @@ footer {
     padding: 20px;
     background: #111827;
 }
+
